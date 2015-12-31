@@ -1,8 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <errno.h>
-
-#include <pthread.h>
 
 #include "misc.h"
 #include "socket_device.h"

@@ -1,3 +1,9 @@
+#include <stdlib.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <netinet/in.h>
+#include <unistd.h>
+
 #include <pthread.h>
 
 #include <libimobiledevice/libimobiledevice.h>
@@ -21,4 +27,4 @@ typedef comm_snippet *comm_snippet_t;
 
 void init_snippet(comm_snippet_t);
 void *free_device(void *);
-void free_sign(comm_snippet_t);
+void sign_free(comm_snippet_t);
