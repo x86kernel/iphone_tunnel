@@ -6,7 +6,8 @@ A simple command line tool which provides SSH tunnelling over the USB cable to a
 
 this require libimobiledevice and usbmux
 
-usage
+## Usage
+
 ```
 	make
 	./iphone_tunnel [iphone_port] [local_port]
